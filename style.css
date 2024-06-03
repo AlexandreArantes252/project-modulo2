@@ -1,0 +1,108 @@
+main{
+    background: linear-gradient(#200D24, #611E6D);
+    width: 1200px;
+    height: 1200px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+section{
+    background: linear-gradient(#611E6D, #200D24);
+
+    width: 1100px;
+    height: 780px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FECD23;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.h1-section{
+    color: white;
+    font-size: 36px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+::placeholder{
+    font-size: 20px;
+}
+
+.Esportes{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#3F61EF, #6CC1FC);
+    border: 10px solid;
+    border-color: #2637DA;
+    border-radius: 10px;
+    width: 210px;
+    height: 320px;
+}
+
+.Simulação{
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(#3F61EF, #6CC1FC);
+        border: 10px solid;
+        border-color: #2637DA;
+        border-radius: 10px;
+        width: 210px;
+        height: 320px;
+}
+
+.Estratégia{
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(#3F61EF, #6CC1FC);
+        border: 10px solid;
+        border-color: #2637DA;
+        border-radius: 10px;
+        width: 210px;
+        height: 320px;
+}
+
+.imagens{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: #200D24;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
